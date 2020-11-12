@@ -13,7 +13,7 @@ const occurrences = (arr, val) => arr.reduce((a, v) => (v === val ? a + 1 : a), 
 - **Function to find and replace array element 'a' with 'b' in position.**
 
 ```javascript
-array = array.map(function(item) { return item == 'a' ? 'b' : item; });;
+array = array.map(function(item) { return item == 'a' ? 'b' : item; });
 ```
 **OR**
 
