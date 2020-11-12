@@ -22,3 +22,10 @@ array.forEach(function(item, i) { if (item == 3452) a[i] = 1010; });
 ```
 
 
+
+
+- **Function to find unique values in an Array**
+
+```javascript
+const uniqueArrayElements = arr.filter((value, index, self) => self.indexOf(value) == index)
+```
